@@ -1,0 +1,7 @@
+--- 
+:orm: couchrest
+:test: none
+:mock: none
+:script: none
+:renderer: haml
+:stylesheet: none

@@ -1,0 +1,14 @@
+<h1>Welcome to Faceblock</h1>
+<p>The social network for tinfoil hats</p>
+<h4>Statistics</h4>
+
+<p>We caught <%= pluralize(@stats, "like") %> for you.</p>
+
+<h4>Your latest likes</h4>
+<ul>
+  <% @latest.each do |like| %>
+    <li><a href="<%= like.href %>"><%= like.href %></a></li>
+  <% end %>
+</ul>
+
+
