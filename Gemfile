@@ -1,8 +1,7 @@
 source :rubygems
 
 # Server requirements
-# gem 'thin' # or mongrel
-# gem 'trinidad', :platform => 'jruby'
+gem 'thin'
 
 # Project requirements
 gem 'rake'

@@ -27,6 +27,7 @@ class Like < CouchRest::Model::Base
 
   design do
     view :by_action
+    view :by_created_at
     view :by_type
     view :by_referrer
     view :by_href
