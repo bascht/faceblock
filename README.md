@@ -1,6 +1,8 @@
 # Facebook.
 For tinfoil hats.
 
+![Trollol](http://i.imgur.com/UgiW8.png)
+
 ## What is this?
 Faceblock started out as my little side project, 
 to see if I could harvest all the precious data that
