@@ -18,7 +18,7 @@ Faceblock.controllers :plugins do
 
   get :activity, :map => "/plugins/activity.php" do
     track_like
-    render_faces
+    render_ragefaces
     @likes = Like.by_referrer(:key => request.referrer)
     render 'plugins/likebox.html'
   end 
