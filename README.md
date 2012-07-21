@@ -1,5 +1,5 @@
-# Facebook.
-For tinfoil hats.
+# Faceblock.
+Facebook for tinfoil hats.
 
 ![Trollol](http://i.imgur.com/UgiW8.png)
 
