@@ -4,6 +4,7 @@ Faceblock.controllers :photo do
     fburl = URI.parse request.url
     fburl.host = "www.facebook.com" 
     begin 
+      logger.notice "Catching Photo from #{fburl}"
       fbsource = Nokogiri::HTML.parse(open fburl)
     rescue 
       return 404
