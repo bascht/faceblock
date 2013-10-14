@@ -15,6 +15,9 @@ faceblock on. Fire up CouchDB and you're done.
 
 ```
 127.0.0.1 www.facebook.com facebook.com
+127.0.0.1 static.ak.fbcdn.net www.static.ak.fbcdn.net
+127.0.0.1 login.facebook.com www.login.facebook.com
+127.0.0.1 fbcdn.net www.fbcdn.net fbcdn.com www.fbcdn.com static.ak.connect.facebook.com www.static.ak.connect.facebook.com
 ```
 
 ### Embeds
